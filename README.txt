@@ -1,14 +1,8 @@
 
 TITLE: 
-Wedding Free HTML5 Bootstrap Template for Wedding Website
-AUTHOR:
-DESIGNED & DEVELOPED by QBOOTSTRAP.COM
+Taiga Torako 2nd Anniversary
 
-Website: 		http://qbootstrap.com/
-Twitter: 		http://twitter.com/Q_bootstrap
-Facebook: 		https://www.facebook.com/Qbootstrap
-
-CREDITS:
+CREDITS: windwalker , 梅子餅
 
 Bootstrap
 http://getbootstrap.com/
