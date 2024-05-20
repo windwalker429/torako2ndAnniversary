@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-bg {
   background: rgba(0, 0, 0, 0.03);
 }
-/*
+
 .qbootstrap-cover,
 .qbootstrap-hero {
   position: relative;
@@ -326,19 +326,6 @@ h1, h2, h3, h4, h5, h6 {
   .qbootstrap-cover,
   .qbootstrap-hero {
     height: 700px;
-  }
-}*/
-
-.qbootstrap-cover,
-.qbootstrap-hero {
-  position: relative;
-  height: 300px;  
-  width: 100%;
-}
-@media screen and (max-width: 1280px) {
-  .qbootstrap-cover,
-  .qbootstrap-hero {
-    height: 800px;
   }
 }
 
