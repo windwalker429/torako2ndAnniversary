@@ -316,16 +316,11 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.03);
 }
 
-.qbootstrap-cover {
-  background-position: top right;
-  background-size: cover;
-  position: relative;
-}
-
+.qbootstrap-cover,
 .qbootstrap-hero {
   position: relative;
   height: 800px;
-  min-width: 10%;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
