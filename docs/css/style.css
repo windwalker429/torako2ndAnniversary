@@ -316,16 +316,24 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.03);
 }
 
-
 .qbootstrap-cover,
 .qbootstrap-hero {
+  background-image: url(../images/cover_bg_3.jpg);	
   position: relative;
   height: 800px;  
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media (orientation: portrait) and (max-width: 1280px) {
   .qbootstrap-cover,
   .qbootstrap-hero {
+	background-image: url(../images/cover_bg_3_mobile_p.jpg);
+    height: 700px;
+  }
+}
+@media (orientation: landscape) and (max-width: 1280px) {
+  .qbootstrap-cover,
+  .qbootstrap-hero {
+	background-image: url(../images/cover_bg_3_1280.jpg);
     height: 700px;
   }
 }
@@ -660,12 +668,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-countdown {
+  background-image: url(../images/cover_bg_1_p.jpg);	
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   z-index: 0;
   width: 100%;
 }
+
+@media all and (orientation: portrait) {
+  #qbootstrap-countdown {
+	background-image: url(../images/cover_bg_1_p.jpg);
+    
+  }
+}
+@media (orientation: portrait) and (min-width:1) {
+  #qbootstrap-countdown {
+	background-image: url(../images/couple-cover_bg_1_p.jpg);
+    
+  }
+}
+@media (orientation: landscape) and (min-width:480) {
+  #qbootstrap-countdown {
+	background-image: url(../images/couple-1_1280.jpg);
+    
+  }
+}
+@media (orientation: landscape) and (min-width: 1280px) {
+  #qbootstrap-countdown {
+	background-image: url(../images/cover_bg_1.jpg);
+    
+  }
+}
+
+
 #qbootstrap-countdown .section-heading {
   margin-bottom: 0 !important;
 }
@@ -976,7 +1012,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+  width: 100%;  
 }
+
 
 #qbootstrap-testimonials {
   background: #FF847C;
