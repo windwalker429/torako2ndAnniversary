@@ -11,6 +11,7 @@
 *	Edit this section
 *
 * ======================================================= */
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
   font-family: "Source Sans Pro", "Noto Sans TC" , Arial, sans-serif;
   font-weight: 400;
@@ -40,7 +41,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Courgette", cursive;
+  font-family: "Courgette","Source Sans Pro", "Noto Sans TC" ,  cursive;
   font-weight: 400;
 }
 
@@ -107,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro","Noto Sans TC" , Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -391,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro","Noto Sans TC", Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -629,12 +630,20 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
 }
 
+#qbootstrap-testimonials img {
+  margin-bottom: 0px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
 #qbootstrap-couple img {
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 #qbootstrap-couple h3 {
   font-size: 34px;
@@ -721,7 +730,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
-  font-size: 24px;
+  font-size: 27px;
   color: rgba(255, 255, 255, 0.7);
 }
 #qbootstrap-countdown .section-heading.svg-sm .svg {
@@ -1024,7 +1033,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #qbootstrap-testimonials {
-  background: #FF847C;
+  background: #9598DB;
   z-index: 0;
 }
 #qbootstrap-testimonials .overlay {
