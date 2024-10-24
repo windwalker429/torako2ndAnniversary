@@ -1025,15 +1025,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .qbootstrap-greetings {
-  background-size: cover;
+  background-size: cover;    
   position: relative;
   background-repeat: no-repeat;
   width: 100%;  
 }
 
-
 #qbootstrap-testimonials {
-  background: #9598DB;
+  background: #8B9AE0;
   z-index: 0;
 }
 #qbootstrap-testimonials .overlay {
@@ -1106,10 +1105,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   display: table;
   color: #fff;
-  width: 56px;
-  height: 56px;
+  width: 70px;
+  height: 70px;
   margin-top: -30px;
-  background: #FF847C;
+  background: grey;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
