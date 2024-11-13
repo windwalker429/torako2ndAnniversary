@@ -13,7 +13,7 @@
 * ======================================================= */
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
-  font-family: "Source Sans Pro", "Noto Sans TC" , Arial, sans-serif;
+  font-family: "Source Sans Pro", "Noto Sans JP","Noto Sans TC" , Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
@@ -41,7 +41,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Courgette","Source Sans Pro", "Noto Sans TC" ,  cursive;
+  font-family: "Courgette","Source Sans Pro","Noto Sans JP", "Noto Sans TC" ,  cursive;
   font-weight: 400;
 }
 
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "Source Sans Pro","Noto Sans TC" , Arial, sans-serif;
+  font-family: "Source Sans Pro","Noto Sans JP","Noto Sans TC" , Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
