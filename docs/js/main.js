@@ -280,10 +280,17 @@
 		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 
 		// If the count down is finished, write some text 
-		if (distance < 0) {
-		 clearInterval(x);
-		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
+		if (distance < 0) {			
+			document.getElementById("days").style.display= 'none';	
+			document.getElementById("hours").style.display= 'none';
+			document.getElementById("minutes").style.display= 'none';
+			document.getElementById("seconds").style.display= 'none';
+			document.getElementById("finish_notify").style.visibility = "visible";			
+			clearInterval(x);			
 		}
+		else {
+			document.getElementById("finish_notify").style.display= 'none';		
+		}		
 		}, 1000);	
 	
 		
